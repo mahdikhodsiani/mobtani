@@ -1,0 +1,47 @@
+body{
+  margin: 15px;
+}
+.form{
+  background: #deeeffa6;
+  padding: 17px;
+  width: 320px;
+  border-radius: 3px;
+}
+.form input,
+.form textarea{
+  width: 300px;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  font-size: 17px;
+  border: 0;
+  border-bottom: 1px solid;
+  border-radius: 3px;
+  outline: none;
+  font-family: tahoma;
+  resize: vertical;
+}
+.form textarea{
+  min-height: 50px;
+  max-height: 200px;
+}
+.opinions{
+  margin: 30px;
+}
+.opinion{
+  width: 400px;
+  background: #f1f2f3;
+  padding: 20px;
+  margin: 5px;
+}
+.opinion h3{
+  margin: 0;
+}
+.opinion textarea{
+  width: 100%;
+  min-height: 100px;
+  padding: 3px;
+  outline: none;
+  border: none;
+  background: #f3f4ff;
+  resize: none;

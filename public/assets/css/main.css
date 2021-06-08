@@ -1,0 +1,80 @@
+/*@import url('https://fonts.googleapis.com/css2?family=Lateef:wght@500&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap');
+
+
+body > header, body > aside, body > footer{
+	background:	hsl(0, 0%, 98%);
+	border:		.5rem solid white;
+	min-height:	5em;
+}
+header #logo{
+	padding:	1rem;
+}
+img{
+	max-width:	100%;
+}
+/* طراحی فرم*/
+/*
+label{
+	width:		5em;
+	display:	inline-block;
+}
+*/
+
+/* شخصی سازی بوت استرپ */
+.btn{
+	//margin:			8px;
+}
+
+.form-control{
+	/*border-left:	none;
+	border-right:	none;
+	border-top:		none;*/
+}
+.form-check-input{
+	margin:			.3rem .5rem .3rem .5rem;
+	position:		static;
+}
+.card{
+	//height:		100%;
+	padding:		0;
+	overflow:		hidden;
+}
+[class *= "col"]{
+	padding: 		.6rem .3rem;	
+}
+.leftAction{
+	float:			left;
+}
+.btn.far{
+	color:			#aaa;
+}
+.btn.far:hover, .btn.fas:hover{
+	color:			#222;
+}
+/* 5 star rating */
+.btn.far, .btn.fas{
+	padding:		.3rem;	
+}
+.btn.fa-star{
+	padding:		.1rem;
+}
+
+.btn.fas.fa-star.voted{
+	color:			gold;
+}
+:hover > .btn.fas.fa-star{
+	color:			orange;
+}
+
+.btn.fas{
+	transition-duration:	.1s;
+}
+/* لیست کامنت */
+.profile img{
+	border-radius:	50%;
+}
+
+.commentFormBlock{
+	display:		none;
+}
